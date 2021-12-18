@@ -767,3 +767,22 @@
 
 
 #FORMATTED STRINGS 
+
+
+#%i, %d, %f , %s 
+
+
+no1,no2,no3  = 10,20,30
+print("no1 value %d" %no1)
+print("no2 value %i" %no2)
+
+name = "vignesh"
+
+print("Hi", name)
+print("Hi %s" %name)
+
+print("no1 value is  %d and no2 value is %d" %(no1,no2))
+
+
+
+
