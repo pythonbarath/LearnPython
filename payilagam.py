@@ -771,18 +771,33 @@
 
 #%i, %d, %f , %s 
 
+#%s-%s operator is put where the string is to be specified
+#%d operator is used as a placeholder to specify integer values
+#%d stands for decimal and %i for integer.
+# %f (of float) is to replace a float,
 
-no1,no2,no3  = 10,20,30
-print("no1 value %d" %no1)
-print("no2 value %i" %no2)
+# no1,no2,no3  = 10.20,20,30
+# print("no1 value %d" %no1)
+# print("no2 value %i" %no2)
 
-name = "vignesh"
+# name = "vignesh"
 
-print("Hi", name)
-print("Hi %s" %name)
+# print("Hi", name)
+# print("Hi %s" %name)
 
-print("no1 value is  %d and no2 value is %d" %(no1,no2))
+# print("no1 value is  %d and no2 value is %d" %(no1,no2))
+# print("no1 value is  %f and no2 value is %d" %(no1,no2))
 
 
 
+#Replacement 
+
+name = 'Raja'
+city = 'chennai'
+accno = 1234
+print("Hi",name,"you are from ",city,"and your bank accnt no is ",accno)
+
+#For DB 
+
+print("Hi {0} you are from {1} and your bank accnt no is {2} ".format(name,city,accno))
 
