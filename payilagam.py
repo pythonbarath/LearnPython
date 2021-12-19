@@ -792,17 +792,43 @@
 
 #Replacement 
 
-name = 'Raja'
-city = 'chennai'
-accno = 1234
-print("Hi",name,"you are from ",city,"and your bank accnt no is ",accno)
+# name = 'Raja'
+# city = 'chennai'
+# accno = 1234
+# print("Hi",name,"you are from ",city,"and your bank accnt no is ",accno)
 
-#For DB 
-print("Hi",name,"you are from ",city,"and your bank accnt no is ",accno)
+# #For DB 
+# print("Hi",name,"you are from ",city,"and your bank accnt no is ",accno)
 
-print("Hi {0} you are from {1} and your bank accnt no is {2} ".format(name,city,accno))
+# print("Hi {0} you are from {1} and your bank accnt no is {2} ".format(name,city,accno))
 
-print("Hi {a} you are from {b} and your bank accnt no is {c} ".format(a= name,b= city,c =accno))
+# print("Hi {a} you are from {b} and your bank accnt no is {c} ".format(a= name,b= city,c =accno))
 
 
-print("Hi {} you are from {} and your bank accnt no is {} ".format(name,city,accno))
+# print("Hi {} you are from {} and your bank accnt no is {} ".format(name,city,accno))
+
+
+#{} - place holder
+
+
+
+#WAP  GRADE SYSTEM TO STUDENTS 
+
+#>90 A+   80>A  70 B+  60- B <60 ->C
+
+from math import *
+
+mark = float(input("Enter The Mark :"))
+mark = ceil(mark)
+
+if mark >=90:
+       print("The Student Mark is %d  Grade is A+" %(mark))
+elif mark >=80:
+       print("The Student Mark is %d  Grade is A" %(mark))
+elif mark >=70:
+       print("The Student Mark is %d  Grade is B+" %(mark))
+elif mark >=60:
+       print("The Student Mark is %d  Grade is B" %(mark))
+else:
+       print("The Student Mark is %d Grade is C" %(mark))
+
