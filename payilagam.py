@@ -816,19 +816,220 @@
 
 #>90 A+   80>A  70 B+  60- B <60 ->C
 
-from math import *
+# from math import *
 
-mark = float(input("Enter The Mark :"))
-mark = ceil(mark)
+# mark = float(input("Enter The Mark :"))
+# mark = ceil(mark)
 
-if mark >=90:
-       print("The Student Mark is %d  Grade is A+" %(mark))
-elif mark >=80:
-       print("The Student Mark is %d  Grade is A" %(mark))
-elif mark >=70:
-       print("The Student Mark is %d  Grade is B+" %(mark))
-elif mark >=60:
-       print("The Student Mark is %d  Grade is B" %(mark))
-else:
-       print("The Student Mark is %d Grade is C" %(mark))
+# if mark >=90:
+#        print("The Student Mark is %d  Grade is A+" %(mark))
+# elif mark >=80:
+#        print("The Student Mark is %d  Grade is A" %(mark))
+# elif mark >=70:
+#        print("The Student Mark is %d  Grade is B+" %(mark))
+# elif mark >=60:
+#        print("The Student Mark is %d  Grade is B" %(mark))
+# else:
+#        print("The Student Mark is %d Grade is C" %(mark))
+
+
+
+# name = input("what is your name    ")
+# if name == "barath":
+#        print("Hi")
+# print("Hello")
+
+
+#WAP - TO FIND GREATEST NUMBER
+
+# no1 = int(input("Enter No1:  ")) #80
+# no2 = int(input("Enter No2:  "))#90
+# no3 = int(input("Enter No3:  ")) #100
+
+# if no1>no2:  #80>90 -false 
+#        if no1>no3:
+#               print("No1 is Greatest")
+# elif no2>no1: #90>80 - True  
+#        if no2>no3:
+#               print("No2 is Greatest ")
+# elif no3>no1:
+#        if no3>no2:
+#               print("No3 is Greatest")
+
+
+#BUG IN THE ABOVE PROGRAM  
+
+
+
+
+
+
+# no1 = int(input("Enter No1:  ")) #80
+# no2 = int(input("Enter No2:  "))#90
+# no3 = int(input("Enter No3:  ")) #100
+
+
+# if no1>no2 and no1>no3:     
+#        print("No1 is Greatest value is  - %d" %(no1))
+# elif no2>no3:
+#        print("No2 is Greatest value is - %d" %(no2))
+# else:       
+#        print("No3 is Greatest value is -  %d" %(no3))
+
+
+#WAP TO FIND OD OR Even
+
+
+# no1 = int(input("Enter No1:  ")) #80
+
+# if no1%2 == 0:
+#        print("Even")
+# else:
+#        print("Odd")
+
+
+
+#Iterative #reperative input  we use While  & Break 
+
+
+
+
+# mind = 7
+
+# while True:
+#        guess = int(input("Enter your numb between 1 and 10 :     "))
+#        if guess == mind:
+#               print("Your Guess is correct")
+#               break
+#        elif guess > mind:
+#               print(" Your Guess is too high")
+#        elif guess < mind:
+#               print(" Your Guess is too low") 
+
+     
+
+#WAP -LIKE 1 2 3 4 5 
+
+#format  1
+
+# print(1, end = ' ')
+# print(2, end = ' ')
+# print(3, end = ' ')
+# print(4, end = ' ')
+# print(5, end = ' ')
+
+#format  2
+#visit the link below 
+# https://i.ibb.co/cXxZjcW/vlcsnap-2021-12-19-16h36m45s477.png
+
+
+
+#Additon Short form is multiplication 
+#multiple IF statement -> While Loop 
+# if if if    -> while  
+
+
+#IF, ELIF, and ELSE are Statements  
+
+#While ,Doehile ,for -loops
+
+# count = 1
+# while count <= 5:
+#        print(count,end=' ')
+#        count = count+1
+
+
+#print in reverse
+
+# count = 100
+# while count >= 1:
+#        print(count,end=' ')
+#        count = count-1
+
+
+
+#print till 100 and break after 5 counts 
+
+#like 
+
+# count = 50
+# while count >= 1:
+#        if count%5==0:
+#               print()   #Normal print() will always print in new line 
+#        print(count,end=' ')  #else is not complusary we can use else 
+#        # count = count-1
+#        count -= 1
+
+
+
+
+
+#PRINT ONLY EVEN NUMBER 
+
+# count = 1
+# max = int(input("Enter the Value:   "))
+# while count <= max:
+#        if count %2 == 0:            
+#               print(count,end = " ")       
+#        count += 1
+
+
+
+
+#PRINT ONLY ODD  NUMBER 
+
+# count = 1
+# max = int(input("Enter the Value:   "))
+# while count <= max:
+#        if count %2 != 0:            
+#               print(count,end = " ")       
+#        count += 1
+
+#format 2 
+
+
+# count = 1
+# max = int(input("Enter the Value:   "))
+# while count <= max:
+#        if not  count %2 == 0:            
+#               print(count,end = " ")       
+#        count += 1
+
+
+#WAP FOR MULTIPLES OF THREE  
+
+# count = 1
+# user = int(input("Enter the Range:  "))
+# while count <= user:
+#        if count %3 == 0:
+#               print(count, end= " ")
+#        count += 1
+
+#mutual multiplies of 3 and 4 
+
+# count = 1
+# user = int(input("Enter the Range:  "))
+# while count <= user:
+#        if count %3 == 0 and count %4 == 0 :          
+#               print(count, end= " ")
+#        count += 1
+
+
+# count = 1
+# user = int(input("Enter the Range:  "))
+# while count <= user:
+#        if not count %3 == 0 and count %4 == 0 :          
+#               print(count, end= " ")
+#        count += 1
+
+
+#video - timing - 6:28:40
+
+count = 1
+user = int(input("Enter the Range:  "))
+while count <= user:
+       if not (count %3 == 0 and count %4 == 0):          #12 and 24 will be missing  
+              print(count, end= " ")
+       count += 1
+
 
