@@ -1025,11 +1025,18 @@
 
 #video - timing - 6:28:40
 
-count = 1
-user = int(input("Enter the Range:  "))
-while count <= user:
-       if not (count %3 == 0 and count %4 == 0):          #12 and 24 will be missing  
-              print(count, end= " ")
-       count += 1
+# count = 1
+# user = int(input("Enter the Range:  "))
+# while count <= user:
+#        if not (count %3 == 0 and count %4 == 0):          #12 and 24 will be missing  
+#               print(count, end= " ")
+#        count += 1
 
 
+#Finding Multiplies of 3 in different method 
+
+# count = 3
+# user = int(input("Enter the Range:  "))
+# while count <= user:
+#        print(count, end= " ")
+#        count += 3
