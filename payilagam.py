@@ -1040,3 +1040,38 @@
 # while count <= user:
 #        print(count, end= " ")
 #        count += 3
+
+
+# why we are using loops?
+# to do a similar action for a n numnber of time
+
+
+#eg1 
+# total = 0
+# total =total +1 
+# total =total +2
+# total =total +3 
+# total =total +4 
+
+
+#eg2
+# total = 0
+# no =1 
+# total =total +no 
+# no +=1 
+# total =total +no
+# no +=1 
+# total =total +no
+# no +=1 
+# total =total +no
+# no +=1 
+
+#eg3 
+
+
+# total = 0
+# no = 1 
+# while no<=5:
+#        total = total + no 
+#        no +=1
+# print(total) 
