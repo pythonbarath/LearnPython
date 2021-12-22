@@ -1075,3 +1075,54 @@
 #        total = total + no 
 #        no +=1
 # print(total) 
+
+#Addition of first N numbers 
+
+
+# total = 0 
+# no = 1
+# user = int(input("Enter the Number: "))
+# while no <= user:
+#        total = total+no
+#        no += 1
+       
+
+# print(total)
+
+
+
+#Multiple of first N numbers 
+
+
+# total = 1
+# no = 1
+# user = int(input("Enter the Number: "))
+# while no <= user:
+#        total = total*no
+#        no += 1
+       
+
+# print(total)
+
+
+#Break & Continue
+
+# no =1
+
+# while no<=10:
+#        print(no, end=" ")
+#        if no == 5:              
+#               break
+#        no+=1
+
+no =1
+
+while no<=10:       
+       if no == 5:
+              no+=1   #no 5 wont be there it will get added                          
+              continue
+       print(no)
+       no+=1                            
+
+
+       
