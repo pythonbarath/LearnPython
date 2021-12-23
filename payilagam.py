@@ -1115,14 +1115,65 @@
 #               break
 #        no+=1
 
-no =1
+# no =1
 
-while no<=10:       
-       if no == 5:
-              no+=1   #no 5 wont be there it will get added                          
-              continue
-       print(no)
-       no+=1                            
+# while no<=10:       
+#        if no == 5:
+#               no+=1   #no 5 wont be there it will get added                          
+#               continue
+#        print(no)
+#        no+=1                            
 
 
-       
+# name = ''
+# while not name == "barath":
+#        name = input("What is your name? ")
+
+
+# name = ' '
+# while True:
+
+#        if name == "barath":
+#               print("WELCOME Barath ")
+#               break
+#        else:
+
+#               name = input("What is your name? ")
+
+
+# REF
+
+# mind = 7
+
+# while True:
+#        guess = int(input("Enter your numb between 1 and 10 :     "))
+#        if guess == mind:
+#               print("Your Guess is correct")
+#               break
+#        elif guess > mind:
+#               print(" Your Guess is too high")
+#        elif guess < mind:
+#               print(" Your Guess is too low") 
+
+
+#WAP TO PRINT THE INPUT CHARACTER :
+# name = input("What is your name? ")
+# length = len(name)
+# i = 0 
+# while i<length:
+#        print(name[i])
+#        i+=1
+
+
+#In Function 
+
+#WAP TO CHECK WHTER THE INPUT HAS THE SAME WORD IN LIST
+# name = input("What is your name? ")
+# length = len(name)
+# i = 0 
+# while i<length:
+#        if name[i] in ['a','e','i','o','u']:
+#               print(name[i])
+#        i+=1
+
+
