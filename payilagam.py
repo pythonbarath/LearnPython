@@ -1179,13 +1179,26 @@
 
 #count NO of vowels present in name 
 
-name = input("What is your name? ")
-length = len(name)
+# name = input("What is your name? ")
+# length = len(name)
+# i = 0 
+# count = 0
+# while i<length:
+#        if name[i] in ['a','e','i','o','u']:
+#               print(name[i])
+#               count += 1
+#        i+=1
+# print("The total no of vowels is ", count)
+
+#print only number from given input 
+
+email  = input("What is your name? ")
+length = len(email)
 i = 0 
 count = 0
 while i<length:
-       if name[i] in ['a','e','i','o','u']:
-              print(name[i])
+       if email[i] >'0' and email[i] <='9':
+              print(email[i])
               count += 1
        i+=1
-print("The total no of vowels is ", count)
+print("The total is ", count)
