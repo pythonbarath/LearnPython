@@ -1297,10 +1297,25 @@
 #Multiple IF STATEMENT CAN BE CHANGED INTO Loop
 
 
-no = 120
-div =2
+# no = 120
+# div =2
 
-while div <no:
-       if no % div == 0:
+# while div <no:
+#        if no % div == 0:
+#               print(div)
+#        div += 1
+
+#WAP to find COMMON DIVISORS OF TWO NUMBER AND TAKE INPUT FROM USERS 
+
+
+# no1,no2 = int(input("Enter the Number:")),int(input("Enter the Number:"))
+no1,no2 = map(int,input("Enter the Number:").split(","))
+div =2
+if no1<no2:
+       small = no1
+elif no2<no1:
+       small = no2
+while div <small:
+       if no1 % div == 0 and no2 % div == 0:
               print(div)
-div += 1
+       div += 1
