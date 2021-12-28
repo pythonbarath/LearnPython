@@ -1309,13 +1309,56 @@
 
 
 # no1,no2 = int(input("Enter the Number:")),int(input("Enter the Number:"))
-no1,no2 = map(int,input("Enter the Number:").split(","))
-div =2
-if no1<no2:
-       small = no1
-elif no2<no1:
-       small = no2
-while div <small:
-       if no1 % div == 0 and no2 % div == 0:
-              print(div)
-       div += 1
+# no1,no2 = map(int,input("Enter the Number:").split(","))
+# div =2
+# if no1<no2:
+#        small = no1
+# elif no2<no1:
+#        small = no2
+# while div <small:
+#        if no1 % div == 0 and no2 % div == 0:
+#               print(div)
+#        div += 1
+
+#WAP to find  LAST COMMON DIVISORS OF TWO NUMBER AND TAKE INPUT FROM USERS 
+# no1,no2 = map(int,input("Enter the Number:").split(","))
+# div =2
+# if no1<no2:
+#        small = no1
+# elif no2<no1:
+#        small = no2
+# while div <small:
+#        if no1 % div == 0 and no2 % div == 0:
+#               last = div
+#        div += 1
+# else:
+#        print("Last Divisor(GCD): ",last)
+
+#format 2
+
+# import math
+
+# print("GCD of ", math.gcd(120,200))
+
+#ternary operator 
+
+# eg1  we are going to simplify from  1348 to 1351 line 
+
+# no1,no2 = map(int,input("Enter the Number:").split(","))
+# div =2
+# if no1<no2:
+#        small = no1
+# elif no2<no1:
+#        small = no2
+# while div <small:
+#        if no1 % div == 0 and no2 % div == 0:
+#               last = div
+#        div += 1
+# else:
+#        print("Last Divisor(GCD): ",last)
+
+
+
+#eg 
+
+# small = no1 if no1<no2 else no2 
