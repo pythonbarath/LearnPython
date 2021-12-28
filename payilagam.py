@@ -1190,15 +1190,117 @@
 #        i+=1
 # print("The total no of vowels is ", count)
 
-#print only number from given input 
 
-email  = input("What is your name? ")
-length = len(email)
-i = 0 
-count = 0
-while i<length:
-       if email[i] >'0' and email[i] <='9':
-              print(email[i])
-              count += 1
-       i+=1
-print("The total is ", count)
+
+#print only number from given input 
+#AND IS EQUAL = TO
+
+# email  = input("What is your name? ")
+# length = len(email)
+# i = 0 
+# count = 0
+# while i<length:
+#        if email[i] >='0' and email[i] <='9':
+#               print(email[i])
+#               count += 1
+#        i+=1
+# print("The total Number count  is ", count)
+
+
+#print only alphabet  from given input 
+
+# email  = input("What is your name? ")
+# length = len(email)
+# i = 0 
+# count = 0
+# while i<length:
+#        if email[i] >='a' and email[i] <='z':
+#               print(email[i])
+#               count += 1
+#        i+=1
+# print("The total Number alphabet   is ", count)
+
+
+#Print Multiples of 6
+
+
+# no =1
+
+# while no<=12:
+#        print(no*6)
+#        no+=1
+
+# Print it in tables format 
+
+
+
+# no =1
+
+# while no<=12:
+#        print("6  * %i  = %i" %(no,no*6))
+#        no+=1
+
+
+#WAP to get repeated input until stop 
+
+# format 1
+
+# choice = " "
+# total = 0
+
+# while not choice  == "stop":
+#        mark = int(input("Enter the Mark:   "))            
+#        total = total + mark
+#        choice = input("Type stop to stop: ")
+       
+# else:       
+#        print(total)
+
+
+
+
+#Format2
+
+
+# choice = " "
+# total = 0
+# mark = 0
+# while not choice  == "stop":
+#        mark = input("Enter the Mark:   ")
+#        if mark == "stop":
+#               break
+#        else:
+#               mark = int(mark)
+#               total = total + mark
+#               print(total)
+
+
+#everyloop has else 
+#if else 
+#while- else
+#for-else 
+
+#WAP to find the divisors
+
+# 120
+
+#logic 
+
+# if 120% 2 ==0:
+#        print(2)
+
+# elif 120% 3 ==0:
+#        print(3) 
+# elif 120% 4 ==0:
+#        print(4) 
+
+#Multiple IF STATEMENT CAN BE CHANGED INTO Loop
+
+
+no = 120
+div =2
+
+while div <no:
+       if no % div == 0:
+              print(div)
+div += 1
