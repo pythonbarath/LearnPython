@@ -1362,3 +1362,32 @@
 #eg 
 
 # small = no1 if no1<no2 else no2 
+
+# when to use ternary ? 
+
+# when we are using to obtain a single value we use ternary operator 
+
+#Not for multiple operations like 
+
+
+#WAP LCM :
+#LCM means it has the highest value 
+
+# no1,no2 = 3,9
+# big = no1 if no1>no2 else no2 
+
+# if big%no1==0 and big%no2==0:
+#        print("LCM is ",big)
+
+
+
+#LCM means it has the highest value 
+# with no connected values
+no1,no2 = 3,7
+big = no1 if no1>no2 else no2 
+while True:
+       if big%no1==0 and big%no2==0:    #if is not a loop so using while 
+              print("LCM is ",big)
+              break
+       big +=1
+
