@@ -1383,11 +1383,23 @@
 
 #LCM means it has the highest value 
 # with no connected values
-no1,no2 = 3,7
-big = no1 if no1>no2 else no2 
-while True:
-       if big%no1==0 and big%no2==0:    #if is not a loop so using while 
-              print("LCM is ",big)
-              break
-       big +=1
+# no1,no2 = 3,7
+# big = no1 if no1>no2 else no2 
+# while True:
+#        if big%no1==0 and big%no2==0:    #if is not a loop so using while 
+#               print("LCM is ",big)
+#               break
+#        big +=1
 
+#Prime Number
+
+no = int(input("Enter number  "))
+div =2 
+while div<no:
+
+       if no%div ==0:
+              print("Not a prime")
+              break
+       div += 1
+else:
+       print("Prime")
