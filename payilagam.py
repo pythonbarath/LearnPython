@@ -1393,13 +1393,13 @@
 
 #Prime Number
 
-no = int(input("Enter number  "))
-div =2 
-while div<no:
+# no = int(input("Enter number  "))
+# div =2 
+# while div<no: 
+#        if no%div ==0:
+#               print("Not a prime")
+#               break
+#        div += 1
+# else:
+#        print("Prime")
 
-       if no%div ==0:
-              print("Not a prime")
-              break
-       div += 1
-else:
-       print("Prime")
