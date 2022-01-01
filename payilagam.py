@@ -1442,16 +1442,48 @@
 
 # If you want to take output Off the final final thing use else part
        
-f = 0
+# f = 0
+# s =1
+# count = 1
+# print(f)
+# print(s)
+# while count<10:
+#        t = f +s
+#        # print(t)
+#        f = s
+#        s = t 
+#        count +=1 
+# else:
+#        print(t)
+
+
+# In the in the about but we are 
+# getting extraoutput soso we're going to 
+# reduce The account by by changing if equal f to-1
+
+
+# f = -1
+# s =1
+# count = 1
+
+# while count<10:
+#        t = f +s
+#        print(t)
+#        f = s
+#        s = t 
+#        count +=1 
+
+#Write a program to make the to make it as user input
+
+
+f = -1
 s =1
 count = 1
-print(f)
-print(s)
-while count<10:
+numb = int(input("Enter the Number: "))
+
+while count<numb:
        t = f +s
-       # print(t)
+       print(t)
        f = s
        s = t 
        count +=1 
-else:
-       print(t)
