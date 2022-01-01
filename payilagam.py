@@ -1403,3 +1403,55 @@
 # else:
 #        print("Prime")
 
+
+
+#Write a program for Fibonacci series
+
+
+# 0 1 1 2 3 5 8 13 
+
+
+#Logic 👇
+# f = 0
+# s =1
+# t = f+s
+# print(t)
+
+# f = s
+# s = t 
+# t = f+s 
+# print(t)
+
+# f = s
+# s = t 
+# t = f+s 
+# print(t)
+
+
+# f = 0
+# s =1
+# count = 1
+# print(f)
+# print(s)
+# while count<10:
+#        t = f +s
+#        print(t)
+#        f = s
+#        s = t 
+#        count +=1 
+
+# If you want to take output Off the final final thing use else part
+       
+f = 0
+s =1
+count = 1
+print(f)
+print(s)
+while count<10:
+       t = f +s
+       # print(t)
+       f = s
+       s = t 
+       count +=1 
+else:
+       print(t)
