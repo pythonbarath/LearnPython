@@ -1476,14 +1476,55 @@
 #Write a program to make the to make it as user input
 
 
-f = -1
-s =1
-count = 1
-numb = int(input("Enter the Number: "))
+# f = -1
+# s =1
+# count = 1
+# numb = int(input("Enter the Number: "))
 
-while count<numb:
-       t = f +s
-       print(t)
-       f = s
-       s = t 
-       count +=1 
+# while count<numb:
+#        t = f +s
+#        print(t)
+#        f = s
+#        s = t 
+#        count +=1 
+
+
+# Write above program  a specific number is specified it should  break
+
+
+
+# f = -1
+# s =1
+# count = 1
+# # numb = int(input("Enter the Number: "))
+
+# while count<count:
+#        t = f +s
+#        print(t)
+#        if t == 34:
+#               break
+#        f = s
+#        s = t 
+#        count +=1 
+
+
+#Simplest format 
+
+# f =-1
+# s =1 
+# count =1
+# while count<=8:
+#        print(f+s)
+#        s = f+s
+#        f =s-f 
+#        count +=1
+
+
+
+
+
+
+
+
+
+
