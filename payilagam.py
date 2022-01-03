@@ -1553,8 +1553,25 @@
 
 #printing number in reverse order 
 
-bread = int(input("Enter the number: "))
-while bread>0:
-       print(bread%10, end=" ")  #it will show  the last digit
-       bread = bread //10  #it will round off the digits
+# bread = int(input("Enter the number: "))
+# count = 0 
+# while bread>0:
+#        print(bread%10, end=" ") #it will show  the last digit
+#        count +=1 
+#        bread = bread //10  #it will round off the digits
+# else:
+#        print("Count of digit is ", count)
 
+
+#printing the Addition of digits 
+
+bread = int(input("Enter the number: "))
+count = 0 
+total = 0
+while bread>0:
+       total = total + (bread%10) #it will show  the last digit
+       count +=1 
+       bread = bread //10  #it will round off the digits
+else:
+       print("Count of digit is ", count)
+       print("Addition  of digit is ", total)
