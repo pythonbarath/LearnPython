@@ -1551,5 +1551,10 @@
 # print(bread)
 # print(bread%10) #!
 
+#printing number in reverse order 
 
+bread = int(input("Enter the number: "))
+while bread>0:
+       print(bread%10, end=" ")  #it will show  the last digit
+       bread = bread //10  #it will round off the digits
 
