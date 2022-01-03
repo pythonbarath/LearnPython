@@ -1517,7 +1517,13 @@
 #        print(f+s)
 #        s = f+s
 #        f =s-f 
-#        count +=1
+#        count +=1F
+
+
+#1234 - > decimal 
+#1234 / 10 -> 123.4 -->  
+#1234%10 -> 4 reminder 
+#1234//4 --> round off the quotient 
 
 
 
@@ -1525,6 +1531,25 @@
 
 
 
+# a = 1234
+
+# a= a//10  #round off the number 
+# # a= a%10
+# print(a)
+
+#slicing operator only works on strings
+
+# bread = 1234
+# print(bread%10) #4 
+# bread = bread //10 #123 
+# print(bread)
+# print(bread%10) #3
+# bread = bread //10 #12
+# print(bread)
+# print(bread%10) #2
+# bread = bread //10 #1 
+# print(bread)
+# print(bread%10) #!
 
 
 
