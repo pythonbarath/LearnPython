@@ -1560,7 +1560,7 @@
 #        count +=1 
 #        bread = bread //10  #it will round off the digits
 # else:
-#        print("Count of digit is ", count)
+#        print("\nCount of digit is ", count)
 
 
 #printing the Addition of digits 
@@ -1587,15 +1587,51 @@
 #4*10 + 3 = 43
 #43*10 + 2 = 
 
-bread = int(input("Enter the number: "))
-count = 0 
-total = 0
-while bread>0:
-       total = (total*10) + (bread%10) #it will show  the last digit
-       count +=1 
-       bread = bread //10  #it will round off the digits
-else:
-       print("Count of digit is ", count)
-       print("Reversed  of digit is ", total)
+# bread = int(input("Enter the number: "))
+# count = 0 
+# total = 0
+# while bread>0:
+#        total = (total*10) + (bread%10) #it will show  the last digit
+#        count +=1 
+#        bread = bread //10  #it will round off the digits
+# else:
+#        print("Count of digit is ", count)
+#        print("Reversed  of digit is ", total)
 
 
+
+#palindrome 
+
+
+# numb = int(input("Enter the Number:  "))
+# no = numb
+# rev = 0 
+# while numb>0:
+#        rev = (rev*10) + numb%10 #i this the value will be single value 
+#        numb = numb //10 
+# else:
+#        print("Reverse value is ",rev)
+#        if rev == no:
+#               print("palindrome")
+#        else:
+#               print("Not palindrome ")
+
+#Armstrong Number 
+
+#SUM OF CUBES OF ITS DIGIT IS EQUAL TO THE NUMBER ITSELF 
+
+#Eg 371 
+# 3**3 + 7**3+1**1 = 371
+
+
+# numb = int(input("Enter the Number:  "))
+# no = numb
+# total = 0 
+# while numb>0:
+#        dig = numb%10
+#        digpower = dig*dig*dig 
+#        total = total + digpower 
+#        numb = numb//10  
+
+# else:
+#        print("Armstrong Number is: ",total)
