@@ -1565,13 +1565,37 @@
 
 #printing the Addition of digits 
 
+# bread = int(input("Enter the number: "))
+# count = 0 
+# total = 0
+# while bread>0:
+#        total = total + (bread%10) #it will show  the last digit
+#        count +=1 
+#        bread = bread //10  #it will round off the digits
+# else:
+#        print("Count of digit is ", count)
+#        print("Addition  of digit is ", total)
+
+
+#wap to for below eg 
+
+
+#Reversed  of digit 
+
+# 4+3 = 43 
+#43+2 = 432 
+#4*10 + 3 = 43
+#43*10 + 2 = 
+
 bread = int(input("Enter the number: "))
 count = 0 
 total = 0
 while bread>0:
-       total = total + (bread%10) #it will show  the last digit
+       total = (total*10) + (bread%10) #it will show  the last digit
        count +=1 
        bread = bread //10  #it will round off the digits
 else:
        print("Count of digit is ", count)
-       print("Addition  of digit is ", total)
+       print("Reversed  of digit is ", total)
+
+
