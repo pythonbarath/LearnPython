@@ -1634,4 +1634,14 @@
 #        numb = numb//10  
 
 # else:
-#        print("Armstrong Number is: ",total)
+#        if total == no:
+#               print("Armstrong")
+#        else:
+#               print("Not Armstrong")
+
+
+
+
+       
+
+
