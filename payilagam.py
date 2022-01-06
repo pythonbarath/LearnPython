@@ -1681,3 +1681,16 @@
 
 #               print(i,end="")
 
+
+#No of Alphabets present
+name = input("What is your statement : ")
+count = 0
+for i in name:
+       if i>='a' and i <= 'z':
+              count += 1
+else:
+       print("No of Alphabets present", count)
+
+
+              
+              
