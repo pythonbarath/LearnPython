@@ -1669,3 +1669,15 @@
 
 # for loop 
 
+# name = input("What is your Email: ")
+# for i in name:
+#        if i>='a' and i <= 'z':
+              
+#               print(i,end="")
+
+# name = input("What is your Email: ")
+# for i in name:
+#        if not (i>='a' and i <= 'z'):
+
+#               print(i,end="")
+
