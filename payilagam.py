@@ -1640,8 +1640,32 @@
 #               print("Not Armstrong")
 
 
+#WAP TO MAKE IT AS BINARY NUMBER  
 
+# 1.GET NO FROM USER
+# 2.DIVIDE THE NUMBER BY 2 
+# 3. STORE REMAINDER 
+# 4. NOW MAKE THE QUOTIENT AS NUMBER 
+# 5. REPEAT STEP 2,3 AND 4 UNTILL QUOTIENT BECOMES 1 
+
+
+#only works for 5 not for 4 
+# no = 5 
+# while no>0:
+#        rem = no%2  #it will store the reminder 
+#        print(rem,end ="")
+#        no = no//2 #it will divide the quotient 
+
+
+# no = 4
+# binary = ''
+# while no>0:
+#        rem = no%2
+#        binary = str(rem)+binary  #it will store the reminder 
+       
+#        no = no//2 
 
        
 
+# for loop 
 
