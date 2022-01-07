@@ -1726,4 +1726,15 @@
 #        print(no," * 3 = ",num)
 #        no+=1 
 
-              
+
+#factorial 
+
+no = int(input("Enter the Number: "))
+factorial = 1 
+for i in range(1,no+1):
+       factorial = factorial*i 
+else:
+       print(factorial)
+
+
+
