@@ -1798,8 +1798,66 @@
 # for i in range(5):
 #        print("*",end=" ")
 
+#in range - range(5) --> it will execute 5 times, not 5-1 !!!
+#in range - range(1,5) --> it will execute 4 times,  5-1 = 4 
+
+# print("hi " *5)
+# print("* " *5)
+
+# for i in range(6):  #range(6) refer to no of rows
+#        print("* " *5)  #5 refers to number stars per row 
+ 
+
+# for i in range(6):
+#        print("* " *5)
+
+
+# row =1
+
+# while row<=5:
+#        print(row,end=' ')
+#        row += 1
+
+# to print in next line use print() 
+
+
+# row =1
+
+# while row<=5:
+#        print(row,end=' ')
+#        print()
+#        row += 1
 
 
 
 
+# row =1
+
+# while row<=5:
+#        for x in range(5):
+#               print(row,end=' ')
+#        print()
+#        row += 1
+
+#inner for loop is for columns 
+#outer for loop is for rows 
+
+# for row in range(1,5):  # no of rows
+#        for x in range(1,6):
+#                 # no of numbers to repeat in each colum  
+#               print(x,end=' ')
+#        print()
+       
+
+# for row in range(1,5):  # no of rows
+#        for x in range(1,6):
+#                 # no of numbers to repeat in each colum  
+#               print(row*x,end=' ')
+#        print()
+
+
+# 1 2 3 4 5 
+# 2 4 6 8 10 
+# 3 6 9 12 15 
+# 4 8 12 16 20 
 
