@@ -1729,12 +1729,43 @@
 
 #factorial 
 
-no = int(input("Enter the Number: "))
-factorial = 1 
-for i in range(1,no+1):
-       factorial = factorial*i 
-else:
-       print(factorial)
+# no = int(input("Enter the Number: "))
+# factorial = 1 
+# for i in range(1,no+1):
+#        factorial = factorial*i 
+# else:
+#        print(factorial)
+
+
+#difference between while and for 
+#for loops is used when you have definite itteration (the number of iterations is known).
+
+
+#Find Prime NUmber 
+
+# no = int(input("Enter the number:  "))
+# div = 2 
+# while div <no:
+#        if no%div==0:
+#               print("Not Prime")
+#               break
+#        div += 1
+
+# else:
+#        print("Prime ")
 
 
 
+#prime number using for loop 
+
+
+# no = int(input("Enter the number:  "))
+
+# for x in range(2, no+1):      
+
+#        if no%2==0:
+#               print("Not Prime")
+#               break 
+# else:
+
+#        print("Prime ") 
