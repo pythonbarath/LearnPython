@@ -1683,14 +1683,47 @@
 
 
 #No of Alphabets present
-name = input("What is your statement : ")
-count = 0
-for i in name:
-       if i>='a' and i <= 'z':
-              count += 1
-else:
-       print("No of Alphabets present", count)
+# name = input("What is your statement : ")
+# count = 0
+# for i in name:
+#        if i>='a' and i <= 'z':
+#               count += 1
+# else:
+#        print("No of Alphabets present", count)
 
 
-              
+#No of Words present
+# name = input("What is your statement : ")
+# count = 0
+# for i in name:
+#        if i==' ':                           
+#               count += 1
+# else:
+#        print("No of Words present", count+1)
+
+#for in range 
+
+# for  num in range(5):
+#        print(num, end=' ')
+# print()
+
+
+# for num in range(1,5):
+#        print(num, end = ' ')
+# print()
+
+
+
+# for num in range(1,5,2):
+#        print(num, end = ' ')
+# print()
+
+
+# tables 
+
+# no =1 
+# for  num in range(3,31,3):
+#        print(no," * 3 = ",num)
+#        no+=1 
+
               
