@@ -1769,3 +1769,37 @@
 # else:
 
 #        print("Prime ") 
+
+
+#print in reverse 
+
+# word = "abcd" #0123 
+# for i in range(len(word)-1,-1,-1):  #(4-1), -1,-1
+
+#        print(word[i])
+
+
+#eg2 
+
+# word = "ABCD"
+# word2 = word[::-1]
+# print(word2)
+
+
+#python pattern programs 
+
+#uses ?
+#looping knowledge !
+#interviews 
+
+
+# #OP * * * *
+
+# for i in range(5):
+#        print("*",end=" ")
+
+
+
+
+
+
