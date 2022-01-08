@@ -1850,14 +1850,22 @@
        
 
 # for row in range(1,5):  # no of rows
-#        for x in range(1,6):
+#        for col in range(1,6):
 #                 # no of numbers to repeat in each colum  
-#               print(row*x,end=' ')
+#               print(row*col,end=' ')
 #        print()
 
 
+# output 
 # 1 2 3 4 5 
 # 2 4 6 8 10 
 # 3 6 9 12 15 
 # 4 8 12 16 20 
 
+
+
+for row in range(5):  # no of rows
+       for col in range(5,0,-1):
+                # no of numbers to repeat in each colum  
+              print(col,end=' ')
+       print()
