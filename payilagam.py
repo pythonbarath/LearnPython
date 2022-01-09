@@ -1864,8 +1864,29 @@
 
 
 
-for row in range(5):  # no of rows
-       for col in range(5,0,-1):
-                # no of numbers to repeat in each colum  
-              print(col,end=' ')
-       print()
+# for row in range(5):  # no of rows
+#        for col in range(5,0,-1):
+#                 # no of numbers to repeat in each colum  
+#               print(col,end=' ')
+#        print()
+
+######################
+#Desired OP  
+# 1234
+# 123
+# 12
+# 1
+
+
+for col in range(1,5):
+       print(col, end=' ')
+print()
+for col in range(1,4):
+       print(col, end=' ')
+print()
+for col in range(1,3):
+       print(col, end=' ')
+print()
+for col in range(1,2):
+       print(col, end=' ')
+print()
