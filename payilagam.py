@@ -1704,6 +1704,8 @@
 #for in range 
 
 # for  num in range(5):
+
+
 #        print(num, end=' ')
 # print()
 
@@ -1877,16 +1879,112 @@
 # 12
 # 1
 
+# eg:1  worst example 
+# more repeated action 
 
-for col in range(1,5):
-       print(col, end=' ')
+
+# for col in range(1,6):
+#        print(col, end=' ')
+# print()
+# for col in range(1,5):
+#        print(col, end=' ')
+# print()
+# for col in range(1,4):
+#        print(col, end=' ')
+# print()
+# for col in range(1,3):
+#        print(col, end=' ')
+# print()
+# for col in range(1,2):
+#        print(col, end=' ')
+# print()
+
+#simplified 
+
+# row = 6 
+# while row >1:
+#        for col in range(1,row):
+#               print(col, end=' ')
+#        print()
+#        row -=1 
+
+
+#more simplified 
+
+
+# for row in range(6,1,-1):
+#        for col in range(1,row):
+#               print(col, end=' ')
+#        print()
+      
+
+# for row in range(6,0,-1):
+#        print(row,end=" ")
+
+#OP 
+# 6 5 4 3 2 1 
+
+
+# for row in range(6,1,-1):
+#        print(row,end=" ")
+# # op
+# 6 5 4 3 2 
+
+
+#op
+# 5 5 5 5 5
+# 4 4 4 4 
+# 3 3 3 
+# 2 2 
+# 1 
+
+
+# for row in range(5,0,-1):
+#        for column in range(1,row+1):
+#               print(row,end =" ")
+#        print()
+
+
+#op
+# 1 2 3 4 5 
+# 1 2 3 4 
+# 1 2 3
+# 1 2
+# 1
+
+
+# for row in range(5,0,-1):
+#        for column in range(1,row+1):
+#               print(column,end =" ")
+#        print()
+
+
+#op 
+# 1 1 1 1 1 
+# 2 2 2 2
+# 3 3 3
+# 4 4 
+# 5
+
+
+# logic:
+for column in range(5):
+       print(1,end=" ")
 print()
-for col in range(1,4):
-       print(col, end=' ')
+for column in range(4):
+       print(2,end=" ")
 print()
-for col in range(1,3):
-       print(col, end=' ')
+for column in range(3):
+       print(3,end=" ")
 print()
-for col in range(1,2):
-       print(col, end=' ')
+for column in range(2):
+       print(2,end=" ")
 print()
+for column in range(1):
+       print(1,end=" ")
+print()
+
+
+# for row in range(1,6): #1 
+
+#        for column in range()
