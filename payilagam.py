@@ -1968,23 +1968,20 @@
 
 
 # logic:
-for column in range(5):
-       print(1,end=" ")
-print()
-for column in range(4):
-       print(2,end=" ")
-print()
-for column in range(3):
-       print(3,end=" ")
-print()
-for column in range(2):
-       print(2,end=" ")
-print()
-for column in range(1):
-       print(1,end=" ")
-print()
+# for column in range(5):
+#        print(1,end=" ")
+# print()
+# for column in range(4):
+#        print(2,end=" ")
+# print()
+# for column in range(3):
+#        print(3,end=" ")
+# print()
+# for column in range(2):
+#        print(2,end=" ")
+# print()
+# for column in range(1):
+#        print(1,end=" ")
+# print()
 
 
-# for row in range(1,6): #1 
-
-#        for column in range()
