@@ -1985,3 +1985,31 @@
 # print()
 
 
+#op 
+# 1 1 1 1 1   #row 5 
+# 2 2 2 2     #row 4
+# 3 3 3       #row 3
+# 4 4         #row 2
+# 5           #row 1
+
+#Simplifies 
+#in while loop 
+# row = 5 
+# no =1
+# while row >=1:              
+#        for column in range(row):
+#               print(no,end=" ")
+#        print()
+#        row -=1
+#        no += 1
+
+
+#For Loop 
+
+# no =1
+# for row in range(5,0,-1):          
+#        for column in range(row):
+#               print(no,end=" ")
+#        print()
+#        no +=1
+     
