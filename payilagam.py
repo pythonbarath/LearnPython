@@ -2012,4 +2012,52 @@
 #               print(no,end=" ")
 #        print()
 #        no +=1
-     
+
+
+
+#desired output 
+# barath
+# barat
+# bara 
+# bar 
+# ba 
+# b 
+
+# word = "barath"
+
+# count = len(word)
+
+
+# for x in range(count):
+#        print(word[x],end=" ")
+# print()
+# for x in range(count-1):
+#        print(word[x],end=" ")
+# print()
+# for x in range(count-2):
+#        print(word[x],end=" ")
+# print()
+# for x in range(count-3):
+#        print(word[x],end=" ")
+# print()
+
+# for x in range(count-4):
+#        print(word[x],end=" ")
+# print()
+
+
+
+#simplified 
+# word = "barath"
+
+# count = len(word)
+
+# # y = 0
+# while count >0:
+#        for x in range(count):
+#               print(word[x],end=" ")
+#        count += -1 
+#        print()
+
+
+
